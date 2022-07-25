@@ -1,0 +1,79 @@
+.container__westburr {
+    width: 100%;
+    background: var(--darkGrey_background);
+    color: var(--lightGrey_background);
+}
+
+.westburr {
+    width: 55%;
+    margin: 0 auto;
+    padding: 70px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+}
+
+.westburr__content__box p{
+    padding: 20px 0 0 25px;
+    font-size: 14px;
+    line-height: 25px;
+}
+.westburr__left__box .lightGrey__under__line {
+    margin-top: 80px;
+    margin-left: 28px;
+}
+.westburr__img__box {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.westburr__img__box img {
+    max-width: 100%;
+}
+
+.garcia__logo {
+    padding-left: 25px;
+}
+
+.garcia__under__line {
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.morner-dark__container {
+    background: var(--lightBlue_background);
+    color: var(--darkGrey_background);
+}
+
+.morner-dark {
+    padding-left: 25px;
+}
+
+.morner__under__line {
+    margin-top: 90px;
+    margin-left: 25px;
+    margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .westburr {
+        width: 100%;
+        margin: 0 auto;
+        padding: 70px 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 50px;
+    }
+    .westburr__left__box .lightGrey__under__line {
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+    .westburr__content__box p{
+        padding: 20px 0 0 25px;
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .morner__under__line {
+        margin-top: 25px;
+        margin-bottom: 35px;
+    }
+}

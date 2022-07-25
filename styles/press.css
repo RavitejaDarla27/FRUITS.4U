@@ -1,0 +1,12 @@
+.about__des h3,p {
+    padding-bottom: 25px;
+}
+.press__line {
+    margin-top: 60px;
+}
+
+@media (max-width: 768px) {
+    .press__line {
+        margin-top: 30px;
+    }
+}

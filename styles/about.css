@@ -1,0 +1,139 @@
+:root {
+    --lightGrey_background: rgba(234,234,234,255);
+    --darkGrey_background: rgba(43,44,49,255);
+    --lightBlue_background: rgba(217,223,229,255);
+}
+
+.container_one {
+    width: 100%
+}
+
+.about__us__container {
+    max-width: 55%;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+
+.abt__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+}
+
+.about_img {
+    width: 80%;
+    margin-left: auto;
+}
+
+.about_img img {
+    max-width: 100%;
+    /* margin: 0 auto; */
+}
+
+.about__heading {
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+.about__des p {
+    line-height: 30px;
+    font-size: 14px;
+}
+.about__line {
+    margin-top: 231px
+}
+.container-two {
+    width: 100%; 
+    background: var(--darkGrey_background);
+    color: var(--lightGrey_background);
+}
+
+.mission__vision__container {
+    max-width: 55%;
+    padding: 70px 20px;
+    margin: 0 auto;
+}
+
+
+.mission__vission {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+}
+.mission-box .heading {
+    font-size: 25px;
+    font-weight: 400;
+    padding-bottom: 50px;
+}
+.our__grid {
+    display: flex;
+}
+
+.mission__content {
+    font-size: 14px;
+    line-height: 25px;
+}
+.container-ten {
+    background: var(--lightBlue_background);
+}
+
+.contact__details textarea,input {
+    background: var(--lightGrey_background);
+}
+
+@media (max-width: 768px) {
+    .mission__vision__container {
+        max-width: 100%;
+        padding: 70px 20px;
+
+    }
+    .mission__vission {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+    }
+    .mission-box .heading {
+        font-size: 20px;
+        font-weight: 400;
+        padding-bottom: 30px;
+    }
+    .our__grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about__us__container {
+        max-width: 100%;
+        padding: 70px 20px;
+    }
+    
+    .abt__grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 50px;
+    }
+    
+    .about_img {
+        width: 100%;
+        margin-left: unset;
+    }
+    
+    .about__heading {
+        font-size: 20px;
+        padding: 20px 0;
+    }
+    
+    .about__des p {
+        line-height: 30px;
+        font-size: 14px;
+    }
+    .about__line {
+        margin-top: 50px;
+    }
+    .home-main-links {
+        justify-content: center;
+    }
+    .home-main-links img {
+        margin: 0 10px;
+    }
+}
